@@ -1,0 +1,88 @@
+body{
+	font-family: Arail, sans-serif;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+	//margin-top: -18px;
+	background-color: #12141c;
+}
+#logo{
+	//margin: 10px 0px 0px 10px;
+	//float: left;
+	height: 100px;
+	width: auto;
+}
+.main{
+	padding: 0px 10px;
+	background-image: url("land.jpg");
+	background-color: #000;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	overflow: hidden;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 30px 5px;
+}
+ul li{
+	display: inline;
+	margin-right: 25px;
+	color: #acafbf;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans',Arail, sans-serif;
+	transition : color 0.3s;
+}
+ul li:hover{
+	color: #e7e8eb;
+}
+.active{
+	color: #e7e8eb;
+}
+.container{
+	max-width: 940px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+.quotes{
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+h2{
+	font-family: 'Josefin Sans',Arail, sans-serif;
+	color: #bbbec9;
+}
+span,p{
+	font-family: 'Merriweather', serif;
+	color: #8587a1;
+	font-size: small;
+	line-height: 1.8em;
+}
+p.dark{
+	color: #d8ddf7;
+}
+.footer{
+	margin: 20px;
+	text-align: center;
+}
+span{
+	font-size: 10px;
+}
+#acm{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 70px;
+	width: auto;
+}
+#anna{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 70px;
+	width: auto;	
+}
