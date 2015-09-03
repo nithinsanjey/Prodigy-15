@@ -25,7 +25,7 @@
 		<div class="contain">
 			<div class="container">
 				<div class="light">
-					<center><div class="bounce"><i class="fa fa-angle-double-down"></i></div></center>
+					<center><div class="bounce second"><i class="fa fa-angle-double-down"></i></div></center>
 				</div>
 			</div>
 		</div>
@@ -69,5 +69,13 @@
 			<span id="myspace">© All rights reserved @ ACM - CEG 2015</span>
 		</div>
 	</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+		$(".bounce").click(function() {
+			$('html,body').animate({
+				scrollTop: $(".second").offset().top},
+				'slow');
+		});
+	</script>
 </body>
 </html>
