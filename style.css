@@ -17,7 +17,7 @@
 .fa-angle-double-down:before {content: "\f103";}
  
 .bounce {
- position: relaive;
+ position: relative;
  margin-top: 30px;
  /*bottom: 30px;
  margin-left: 50% ;*/
@@ -29,6 +29,7 @@
  -moz-border-radius:50%;
  -ms-border-radius:50%;
  border-radius:50%;*/
+ cursor: pointer;
  animation: bounce 2s infinite;
  -webkit-animation: bounce 2s infinite;
  -moz-animation: bounce 2s infinite;
@@ -64,18 +65,16 @@
 
 body{
 	font-family: Arail, sans-serif;
-	font-size: 18px;
+	font-size: medium;
 	padding: 0px;
 	margin: 0px;
 	background-image: url("graphy.png");
 	background-image: center center;
-	background-size: 30px 60px;
-	//margin-top: -18px;
+	background-size: auto;
+	/*margin-top: -18px;*/
 	background-color: #12141c;
 }
 #logo{
-	//margin: 10px 0px 0px 10px;
-	//float: left;
 	height: 100px;
 	width: auto;
 }
@@ -86,7 +85,7 @@ body{
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
-	min-height: 100vh;
+	/*min-height: 100vh;
 	/*height: 612px; 
 	overflow: hidden; */
 }
@@ -135,7 +134,7 @@ h2{
 	font-size: 2em;
 }
 ol li,.col a,span,p{
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather',Geneva ,Minion Pro, serif;
 	color: #8587a1;
 	font-size: small;
 	line-height: 2.5em;
@@ -183,7 +182,7 @@ span{
 .default-btn {
     border: 1px solid #bbbec9;
     color: #bbbec9;
-    font-family: "Merriweather",sans-serif;
+    font-family: "Merriweather", serif;
     font-weight: 600;
     font-size: 10px;
     letter-spacing: 1.3px;
