@@ -99,12 +99,12 @@ body{
 	/*height: 612px; 
 	overflow: hidden; */
 }
-ul{
+ul.nav{
 	text-align: center;
 	list-style-type: none;
 	padding: 30px 5px;
 }
-ul li{
+ul.nav li{
 	display: inline;
 	margin: 0px 10px;
 	color: #acafbf;
@@ -135,7 +135,7 @@ h2{
 }
 ol li,.col a,span,p{
 	font-family: 'Merriweather',Geneva ,Minion Pro, serif;
-	color: #8587a1;
+	color: #ADB0D7;
 	font-size: small;
 	line-height: 2.5em;
 }
@@ -232,4 +232,43 @@ a{
 }
 .active a{
 	color: #e7e8eb;
+}
+/*       REGARDING THE PWS TABS */
+.pws_tabs_list {
+    display: block;
+    height: auto;
+    padding: 1.25em;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out 0.3s;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ADB0D7;
+    border: 2px solid #BBBEC9;
+    font-family: "Merriweather",serif;
+    font-size: medium;
+    line-height: 1.5em;
+}
+.pws_tabs_container ul.pws_tabs_controll li a {
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #BBBEC9;
+    margin-right: 0px;
+    cursor: pointer;
+    border: 1px solid #BBBEC9;
+    border-bottom: 0px;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: medium;
+    text-transform:;
+}
+/*.pws_tabs_container ul.pws_tabs_controll li a:hover {
+	background-color: #ACAFBF;
+}*/
+.pws_tabs_container.pws_theme_grey ul.pws_tabs_controll li a {
+    background-color: rgba(0,0,0,0);
+}
+.pws_tabs_container.pws_theme_grey ul.pws_tabs_controll li a.pws_tab_active {
+    background-color: #BBBEC9;
 }

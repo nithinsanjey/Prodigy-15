@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Onsite Events - Prodigy '15</title>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="jquery.pwstabs.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="genmain">
+		<div class="header">
+			<img id="logo" class="left" src="logo.png" alt="Prodigy Logo">
+			<img id="acm" class="right" src="acm.png" alt="ACM logo">
+			<img id="anna" class="right" src="ceg.png" alt="Anna University Logo">
+			<div class="clearfix"></div>
+			<ul class="nav">
+				<li ><a href="about.html">About</a></li>
+				<li><a href="online.html">Online Events</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="onsite.html">Onsite Events</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div class="contain">
+			<div class="container">
+				<div class="light">
+					<center><div class="bounce second"><i class="fa fa-angle-double-down"></i></div></center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sub new container">
+		<h2>Onsite Events</h2>
+		<div class="tabset1" style="width: auto;">
+         <div data-pws-tab="tab1" data-pws-tab-name="General Quiz">
+         	<p class="light medium">
+         		<b>“To know is to know that you know nothing. That is the meaning of true knowledge” --Socrates</b>
+         	</p>
+            <p class="light medium">
+            	Let your intellect shine, let the rolling brain race with every passing of minute. The set of questions will be generic and the top teams will make to the finale. 
+            </p>
+            <br>
+            <p  class="light medium">
+            	Team size: 2 
+            </p>
+         </div>
+         <div data-pws-tab="tab2" data-pws-tab-name="Cerebra! - Math Event">
+            <p class="light medium">
+         		<b>“In Mathematics you don’t understand things. You just get used to them.” --Johann Von Neumann </b>
+         	</p>
+            <p class="light medium">
+            	You love math and puzzles? You are in the right place. You will be given a set of questions to solve and top teams will meet in the faceoff to grab the top places. 
+            </p>
+            <br>
+            <p  class="light medium">
+            	Team size: 1-3
+            </p>
+         </div>
+         <div data-pws-tab="tab3" data-pws-tab-name="Project Display">
+            <p class="light medium">
+         		<b>“The more that you read, the more things you will know. The more that you learn, the more places you'll go.” -- Seuss</b>
+         	</p>
+            <p class="light medium">
+            	So much interested in creating your own application ? This is the right event for you. Come and show us your creativity. 
+            </p>
+            <br>
+            <p  class="light medium">
+            	Topic : Android app development
+            </p>
+            <p  class="light medium">
+            	Team size: 1-2
+            </p>
+         </div>
+         <div data-pws-tab="tab4" data-pws-tab-name="Cyber Quest - Programming Contest">
+            <p class="light medium">
+         		<b>"The most important property of a program is whether it accomplishes the intention of its user.”  --C.A.R.Hoare </b>
+         	</p>
+            <p class="light medium">
+            	Are you an ardent coder? Come try your hand with the programming contest. The students will pen down codes in any programming languages like C, C++ or Java. 
+            </p>
+            <br>
+            <p  class="light medium">
+            	Team size: 2
+            </p>
+         </div>
+         <div data-pws-tab="tab5" data-pws-tab-name="Telephone Charades">
+            
+            <p class="light medium">
+            	Telephone charades is a hilarious icebreaker in which a person acts out a charade only for the next person in the line, who in turn acts out for the next person. The last person standing in line attempts to guess what the original clue was. 
+            </p>
+            <br>
+            <p  class="light medium">
+            	Team size: 4
+            </p>
+         </div>
+         <div data-pws-tab="tab6" data-pws-tab-name="How stuffs work?">
+            <p class="light medium">
+            	Have you been fascinated by Science and Technology? Have you tried to figure out the scientific reasoning behind happenings in the world? Then this event is the perfect fit for you. Sharpen your scientific reasoning and turn up for the ultimate test of scientific knowledge.
+            </p>
+            <br>
+            <p  class="light medium">
+            	Team size: 4
+            </p>
+         </div>
+      </div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="footer new">
+		<div class="container">
+			<span id="myspace">© All rights reserved @ ACM - CEG 2015</span>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="jquery.pwstabs.min.js"></script>
+	<script type="text/javascript">
+		$(".bounce").click(function() {
+			$('html,body').animate({
+				scrollTop: $(".second").offset().top},
+				'slow');
+		});
+		$('.tabset1').pwstabs({
+		   effect: 'scale',
+		   defaultTab: 1,
+		   containerWidth: 'auto',
+		   theme: 'pws_theme_grey',
+		});
+	</script>
+</body>
+</html>
