@@ -113,8 +113,8 @@ ul.nav li{
 	font-family: 'Josefin Sans',Arail, sans-serif;
 	transition : color 0.3s;
 }
-ul li:hover{
-	color: #e7e8eb;
+ul.nav li a:hover{
+	color: #E7E8EB;
 }
 .container{
 	max-width: 940px;
