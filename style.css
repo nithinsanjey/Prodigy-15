@@ -133,6 +133,9 @@ h1,h2,h3{
 h2{
 	font-size: 2em;
 }
+h3{
+	font-size: 1.5em;	
+}
 ol li,.col a,span,p{
 	font-family: 'Merriweather',Geneva ,Minion Pro, serif;
 	color: #ADB0D7;
